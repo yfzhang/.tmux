@@ -2,6 +2,7 @@
 =====
 
 - `prefix + $` 更名session
+- `prefix + d` 断开session
 
 Self-contained, pretty and versatile `.tmux.conf` configuration file.
 

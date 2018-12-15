@@ -3,6 +3,7 @@
 
 - `prefix + $` 更名session
 - `prefix + d` 断开session
+- `prefix + m` 鼠标模式
 
 Self-contained, pretty and versatile `.tmux.conf` configuration file.
 

@@ -2,10 +2,10 @@
 =====
 
 ```
-$ cd
-$ git clone https://github.com/yfzhang/.tmux.git
-$ ln -s -f .tmux/.tmux.conf
-$ cp .tmux/.tmux.conf.local .
+cd
+git clone https://github.com/yfzhang/.tmux.git
+ln -s -f .tmux/.tmux.conf
+cp .tmux/.tmux.conf.local .
 ```
 
 - `prefix + $` 更名session

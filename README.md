@@ -1,6 +1,13 @@
 .tmux
 =====
 
+```
+$ cd
+$ git clone https://github.com/gpakosz/.tmux.git
+$ ln -s -f .tmux/.tmux.conf
+$ cp .tmux/.tmux.conf.local .
+```
+
 - `prefix + $` 更名session
 - `prefix + d` 断开session
 - `prefix + m` 鼠标模式
@@ -17,18 +24,6 @@ Requirements:
   - tmux **`>= 2.1`** running inside Linux, Mac, OpenBSD, Cygwin or WSL (Bash on
     Ubuntu on Windows)
   - outside of tmux, `$TERM` must be set to `xterm-256color`
-
-To install, run the following from your terminal: (you may want to backup your
-existing `~/.tmux.conf` first)
-
-```
-$ cd
-$ git clone https://github.com/gpakosz/.tmux.git
-$ ln -s -f .tmux/.tmux.conf
-$ cp .tmux/.tmux.conf.local .
-```
-
-Then proceed to [customize] your `~/.tmux.conf.local` copy.
 
 [customize]: #enabling-the-powerline-look
 
